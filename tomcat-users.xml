@@ -41,3 +41,5 @@
 -->
  <user username="admin" password="12345" roles="manager-gui,admin-gui,manager-script,manager-status,manager-jmx"/>
 </tomcat-users>
+ <role rolename="admin-gui,manager-gui,manager-script,manager-jmx,manager-status,admin-gui"/>
+  <user username="admin" password="password" roles="admin-gui,manager-gui,manager-script"/>
